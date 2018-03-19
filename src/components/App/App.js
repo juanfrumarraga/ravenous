@@ -30,10 +30,6 @@ class App extends React.Component {
     console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
   }
 
-  searchYelp(term, location, sortBy) {
-    console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
-  }
-
   render() {
     return (
       <div className="App">
